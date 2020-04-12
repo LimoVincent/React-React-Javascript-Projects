@@ -3,6 +3,7 @@ import './UserOutput.css';
 
 
 const UserOutput =(props) => {
+    
          return(
             <div className = 'OutputStyle' >
             <p>My Name Is [1] :  <strong> {props.userName} </strong>  </p>
