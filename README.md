@@ -10,3 +10,8 @@ Contents covered
 5. State and Lifecycle
 6. Handling Events
 7. inline Styling in React
+
+
+Note : Part of Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)) Base Syntax Assignment.
+
+
