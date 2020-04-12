@@ -1,8 +1,9 @@
-React projects examaples
+<h1> React projects examaples </h1>
 
-Contains input and output Components using props states
 
-Contents covered
+<h2>Contains input and output Components using props states</h2>
+
+<h3>Contents covered</h2>
 
 1. Introducing JSX
 3. Rendering Elements
