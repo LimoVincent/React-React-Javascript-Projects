@@ -1,0 +1,13 @@
+
+.OutputStyle{
+
+background-color: rgb(200, 200, 240);
+margin:2%;
+text-align: auto;
+flex-direction: inherit;
+
+border: radius 30px;
+border : 5px solid rgb(65, 32, 32);
+flex-wrap: wrap;
+};
+
