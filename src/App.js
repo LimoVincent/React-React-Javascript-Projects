@@ -4,6 +4,8 @@ import React from 'react';
 import UserInput from './UserInput/UserInput';
 import UserOutput from './UserOutput/UserOutput';
 import './App.css';
+import Assignment2 from './Assignment2/Assignment2.js';
+
 
 class  App extends React.Component {
 
@@ -23,7 +25,9 @@ class  App extends React.Component {
       <h1><strong>Input Output App</strong></h1>
       </header>
 
-      <h1> <strong>React basics Exercises</strong> </h1>
+      <h1> <strong>React Exercises</strong> </h1>
+      <hr></hr><hr></hr><h2> <strong>1. Assignment 1 - Base Syntax</strong> </h2>
+
   
       <UserInput changed = {this.ChangeInputHandler} currentName = {this.state.StateUserName}  />
      
@@ -32,6 +36,11 @@ class  App extends React.Component {
       <UserOutput  userName = 'Kipruto'/>
       
       <UserOutput userName = 'Limo'/>
+
+
+      <hr></hr><hr></hr> <h2> <strong>2. Assignment 2 - Validations, Lists and Conditionals</strong> </h2>
+
+<Assignment2/>
     </div>
 
    );

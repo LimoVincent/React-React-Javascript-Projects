@@ -11,11 +11,10 @@ const UserInput = (props) => {
     };
 return(
 <input style = {style} type ="text" onChange = {props.changed}  value = {props.currentName}/>);
-
 };
 
 export default UserInput;
 
 
-
+ 
 
