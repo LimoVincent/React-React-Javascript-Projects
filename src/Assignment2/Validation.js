@@ -7,7 +7,7 @@ const Validation = (props) => {
     let  OneSpace = false;
     let NotEmpty = false;
     let message = "";
-    let char1 = props.Input.chatAt(0);
+   // let char1 = props.Input.chatAt(0);
    
 
 
@@ -21,8 +21,7 @@ message = "Name length short"  :
 sixCharaters = true
 
 }
-
-<p>{message}</p>
+<p>{message} </p>
 <p>Building in progress. Objective is to get the validation showing with 1. Checkboxes 2. Button clicks and 3. Automatic Onchange from input. Stay safe :)</p>
 
 
