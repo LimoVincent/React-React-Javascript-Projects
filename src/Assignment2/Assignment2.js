@@ -32,8 +32,8 @@ import Validation from './Validation';
                     <li>Frist name should starts with upper case.</li>
                     <li>Last name shouldstarts with upper case</li>
                     <li>One Empty Space between the two names</li>
-                    <li>Should not be Empty</li>
-                    <li><i>for example Vincent Limo</i></li>
+                    <li>Should not be Empty, <i>for example <strong>V</strong>incent <strong>L</strong>imo</i></li>
+                    
                 </ol>
                {/*value = {this.state.input*/} 
 Name <input type ="text" onChange = {this.InputCahngeHandler} placeholder ='FirstName LastName' />
@@ -57,7 +57,7 @@ Name <input type ="text" onChange = {this.InputCahngeHandler} placeholder ='Firs
 
         }</label> <br></br>
 
-                <button><strong>Validate</strong></button> <Validation InputLength = {this.state.input.length}/>
+                <button><strong>Validate</strong></button> <Validation Input= {this.state.input}/>
                 <p><strong>{this.state.input.includes(' ')}</strong></p>
 
             </div>
