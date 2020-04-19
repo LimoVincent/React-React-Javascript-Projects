@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React,  {Component} from 'react'
 import Validation from './Validation';
 
  class Assignment2 extends Component {
@@ -7,7 +7,6 @@ import Validation from './Validation';
      
          this.state = {
               input : 'FirstName LastName'
-              
          }
      }
 
@@ -20,7 +19,7 @@ import Validation from './Validation';
     render() {
         const style = {
             border: '3px solid blue',
-            margin : '20px 30px',
+            margin : '2% 3%', //'20px 30px',
             padding : '3px',
             backgroundColor : 'rgb(233, 171, 171)',
             borderRadius : '2px'
@@ -29,31 +28,41 @@ import Validation from './Validation';
             <div  style = {style}>
                 <p><strong>Name conditions: </strong></p>
                 <ol type ="1">
-                    <li>Atleast 10 characters long</li>
-                    <li>Frist name starts with upper case</li>
-                    <li>last name starts with upper case</li>
-                    <li>One Empty Space between the names</li>
+                    <li>Atleast 6 characters long.</li>
+                    <li>Frist name should starts with upper case.</li>
+                    <li>Last name shouldstarts with upper case</li>
+                    <li>One Empty Space between the two names</li>
                     <li>Should not be Empty</li>
+                    <li><i>for example Vincent Limo</i></li>
                 </ol>
                {/*value = {this.state.input*/} 
 Name <input type ="text" onChange = {this.InputCahngeHandler} placeholder ='FirstName LastName' />
 
 <p>Output Input : <strong>{this.state.input}</strong></p>
 
+<input type="checkbox" id="validate" name="validate" value="Bike"></input>
+<label for="validate">Atleast 6 characters long :). <strong>[{this.state.input.length} characters :)] </strong></label> <br></br>
 
-<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></input>
-<label for="vehicle1"> I have a bike</label>
+<input type="checkbox" id="validate" name="validate" value="Bike"></input>
+<label for="validate">Fristname should starts with uppercas: <strong>[{this.state.input.charAt(0)} characters :)] </strong></label> <br></br>
 
-<input type="checkbox" id="vehicle2" name="vehicle2" value="Car"></input>
-<label for="vehicle2"> I have a car</label>
+<input type="checkbox" id="validate" name="validate" value="Bike"></input>
+<label for="validate">Lastname should starts with upper case..</label> <br></br>
 
-<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></input>
-<label for="vehicle3"> I have a boat</label>
+<input type="checkbox" id="validate" name="validate" value="Bike"></input>
+<label for="validate">One Space between.</label> <br></br>
 
-                <button><strong>Validate</strong></button>
-                <Validation InputLength = {this.state.input.length}/>    
+<input type="checkbox" id="validate" name="validate" value="Bike"></input>
+        <label for="validate">Not Empty.{
+
+        }</label> <br></br>
+
+                <button><strong>Validate</strong></button> <Validation InputLength = {this.state.input.length}/>
+                <p><strong>{this.state.input.includes(' ')}</strong></p>
+
             </div>
         )
+
     }
 }
 

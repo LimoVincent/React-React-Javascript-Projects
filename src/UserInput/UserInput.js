@@ -10,7 +10,10 @@ const UserInput = (props) => {
         padding : '3px'
     };
 return(
-<input style = {style} type ="text" onChange = {props.changed}  value = {props.currentName}/>);
+<div>
+<label>Input : </label>
+<input style = {style} type ="text" onChange = {props.changed}  value = {props.currentName}/>
+</div>);
 };
 
 export default UserInput;
