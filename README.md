@@ -14,8 +14,7 @@
 7. inline Styling in React
 
 <hr> </hr>
-<img src="https://2euu1q.by.files.1drv.com/y4mor8N86YeVq5IpBXzK2O2hn_zohnON0vwasNcjLZs0RN36IqR_K7yQI-BvlytKjLwZaFDdhUi-DD1sDixYbf50Z3blYKRNJ6CXkpgipQe2G9cRCmTsQnJD1q1qYF6emqH4xJ1sU_PkbZhn86gZ7f5RIb7QXX5U6_jdD-SwMscj9dg_tYS6VkaUGvq1vG59E6RuCkGjk3t-X3DiIznm4zMpQ?width=1049&height=779&cropmode=none" alt="Assignment 1 png" width="200"
-         height="80">
+<img src="https://2euu1q.by.files.1drv.com/y4mor8N86YeVq5IpBXzK2O2hn_zohnON0vwasNcjLZs0RN36IqR_K7yQI-BvlytKjLwZaFDdhUi-DD1sDixYbf50Z3blYKRNJ6CXkpgipQe2G9cRCmTsQnJD1q1qYF6emqH4xJ1sU_PkbZhn86gZ7f5RIb7QXX5U6_jdD-SwMscj9dg_tYS6VkaUGvq1vG59E6RuCkGjk3t-X3DiIznm4zMpQ?width=1049&height=779&cropmode=none" alt="Assignment 1 png" >
          <hr> </hr>
 
 <hr></hr><hr></hr><h2> <strong>2. Assignment 2</strong> </h2>
@@ -35,11 +34,14 @@
 <strong>  
 Name conditions:
 <strong>
-1. Atleast 6 characters long.
-2. Frist name should starts with upper case.
-3. Last name shouldstarts with upper case
-4. One Empty Space between the two names
-5. Should not be Empty, for example Vincent Limo
+
+  <ol type="i">
+    <li>Atleast 6 characters long.</li>
+    <li>Frist name should starts with upper case.</li>
+    <li>Last name shouldstarts with upper case</li>
+    <li>One Empty Space between the two names</li>
+    <li>Should not be Empty, for example Vincent Limo</li>
+  </ol>
 
 Note : Part of Udemy (React - The Complete Guide (incl Hooks, React Router, Redux)) Working with list and conditions Assignment with some extended modification
 
