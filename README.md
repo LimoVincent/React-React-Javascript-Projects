@@ -35,7 +35,7 @@
 Name conditions:
 <strong>
 
-  <ol type="i">
+  <ol type="1">
     <li>Atleast 6 characters long.</li>
     <li>Frist name should starts with upper case.</li>
     <li>Last name shouldstarts with upper case</li>
